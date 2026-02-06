@@ -1,7 +1,8 @@
 from fastapi import APIRouter
-from backend.database import attendance_collection
-from backend.schemas import Attendance
+from database import attendance_collection
+from schemas import Attendance
 from datetime import datetime
+
 
 router = APIRouter()
 
