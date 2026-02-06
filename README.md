@@ -56,6 +56,7 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
+Live URL - https://hrms-lite-j98f.onrender.com
 ```
 
 Create `.env` inside backend:
@@ -72,6 +73,7 @@ MONGODB_URL=your_mongodb_connection_string
 cd frontend
 npm install
 npm run dev
+Live URL - https://hrms-lite-chirag.netlify.app/employees
 ```
 
 ---
