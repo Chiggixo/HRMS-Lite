@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = https://hrms-lite-j98f.onrender.com;
+const API = "https://hrms-lite-j98f.onrender.com";
 
 export default function Admin() {
 
