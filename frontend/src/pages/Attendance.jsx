@@ -4,7 +4,7 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts"
 import jsPDF from "jspdf";
 import "jspdf-autotable";
 
-const API = https://hrms-lite-j98f.onrender.com;
+const API = "https://hrms-lite-j98f.onrender.com";
 
 export default function Attendance() {
 
