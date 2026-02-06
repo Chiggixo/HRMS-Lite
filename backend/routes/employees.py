@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException
-from backend.schemas import Employee
-from backend.database import employee_collection
+from database import employee_collection
+from schemas import Employee
+
 
 router = APIRouter()
 
